@@ -23,7 +23,6 @@ export default function CreatePost() {
 
   const navigate = useNavigate();
 
-
   const handleUpdloadImage = async () => {
     try {
       if (!file) {
